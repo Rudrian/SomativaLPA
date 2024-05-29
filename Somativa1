@@ -1,0 +1,30 @@
+package avaliaçãolpa;
+
+import java.util.Scanner;
+
+public class avalia1 {
+
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+		double a, b, soma, subtra, multi, divi;
+		
+		System.out.print("Digite um valor para A: ");
+		a = ler.nextDouble();
+		
+		System.out.print("Digite um valor para B: ");
+		b = ler.nextDouble();
+		
+		soma = a+b;
+		subtra = a-b;
+		multi = a*b;
+		divi = a/b;
+		
+		System.out.print("O resultado da soma é: " + soma + "|");
+		System.out.print("O resultado da subtração é: " + subtra + "|");
+		System.out.print("O resultado da multiplicação é: " + multi + "|");
+		System.out.print("O resultado da divisão é: " + divi + "|");
+		
+		ler.close();
+	}
+
+}
