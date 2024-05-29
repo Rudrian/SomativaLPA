@@ -1,0 +1,29 @@
+package avaliaçãolpa;
+
+import java.util.Scanner;
+
+public class avalia4 { //Nome da Classe
+
+	public static void main(String[] args) { //Permite que o codigo seja executado de varias formas
+		Scanner ler = new Scanner(System.in); // Ler e armazenar o codigo
+		
+	    int a [] = new int [15]; //Variaveis
+		int soma = 0; //Variaveis
+		int numero = 0; //Variaveis
+		
+		for(int i=0; i<15; i++) { //Estrutura de repetição, ate 15 numeros
+			System.out.print("Informe um numero: "); //Usuario informa 15 numeros
+			numero = ler.nextInt(); //Ler e armazenar os 15 numeros informados
+			
+			soma = soma += numero; //Ira somar os numeros conforme os dados armazenados
+			
+			System.out.println("A soma dos numeros é: " + "|" + soma + "|"); //Ira mostrar a mensagem, junto com as somas dos numeros
+				
+			
+			
+		}
+		
+
+	}
+
+}
