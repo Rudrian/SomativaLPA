@@ -2,45 +2,45 @@ package avaliaçãolpa;
 
 import java.util.Scanner;
 
-public class avalia3 {
+public class avalia3 { //Nome da Classe
 
-	public static void main(String[] args) {
-		Scanner ler = new Scanner(System.in);
+	public static void main(String[] args) { //Permite que o codigo seja executado de varias formas
+		Scanner ler = new Scanner(System.in); //Ler o codigo e armazenar
 		
-		System.out.print("Insira o dia da semana: ");
-		int dia = ler.nextInt();
-		switch (dia) {
+		System.out.print("Insira o dia da semana: "); //Usuario informa numero para ser armazenado
+		int dia = ler.nextInt(); //Ler numero inteiro e armazenar
+		switch (dia) { //Estrutura de controle de fluxo
 		
-		case 1:
-		System.out.println("Domingo");
-		break;
+		case 1: //Caso o numero é correspondente
+		System.out.println("Domingo"); //Mostra o dia informado
+		break; //Caso verdadeiro, fecha codigo
 		
-		case 2:
-		System.out.println("Segunda-Feira");
-		break;
+		case 2: //Caso o numero é correspondente
+		System.out.println("Segunda-Feira"); //Mostra o dia informado
+		break; //Caso verdadeiro, fecha codigo
 		
-		case 3:
-		System.out.println("Terça-Feira");
-		break;
+		case 3: //Caso o numero é correspondente
+		System.out.println("Terça-Feira"); //Mostra o dia informado
+		break; //Caso verdadeiro, fecha codigo
 		
-		case 4:
-		System.out.println("Quarta-Feira");
-		break;
+		case 4: //Caso o numero é correspondente
+		System.out.println("Quarta-Feira"); //Mostra o dia informado
+		break; //Caso verdadeiro, fecha codigo
 		
-		case 5:
-		System.out.println("Quinta-Feira");
-		break;
+		case 5: //Caso o numero é correspondente
+		System.out.println("Quinta-Feira"); //Mostra o dia informado
+		break; //Caso verdadeiro, fecha codigo
 		
-		case 6:
-		System.out.println("Sexta-Feira");
-		break;
+		case 6: //Caso o numero é correspondente
+		System.out.println("Sexta-Feira"); //Mostra o dia informado
+		break; //Caso verdadeiro, fecha codigo
 		
-		case 7:
-		System.out.println("Sabado");
-		break;
+		case 7: //Caso o numero é correspondente
+		System.out.println("Sabado"); //Mostra o dia informado
+		break; //Caso verdadeiro, fecha codigo
 		
-		default:
-		System.out.println("Informe um numero correspondente ao dia da semana");
+		default: //Caso o usuario informe um valor não correspondente
+		System.out.println("Informe um numero correspondente ao dia da semana"); //Mostra invalido
 		
 		
 		}
