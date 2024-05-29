@@ -2,29 +2,30 @@ package avaliaçãolpa;
 
 import java.util.Scanner;
 
-public class avalia1 {
+public class avalia1 {  // Nome da Classe
 
-	public static void main(String[] args) {
-		Scanner ler = new Scanner(System.in);
-		double a, b, soma, subtra, multi, divi;
+	public static void main(String[] args) { // Permite que o codigo seja executado de varias formas
+		Scanner ler = new Scanner(System.in); // Ler o codigo e armazenar
+		double a, b, soma, subtra, multi, divi; // Variaveis
 		
-		System.out.print("Digite um valor para A: ");
-		a = ler.nextDouble();
+		System.out.print("Digite um valor para A: "); // Informar um valor para variavel tipo A
+		a = ler.nextDouble(); // Armazenar valor para tipo A
 		
-		System.out.print("Digite um valor para B: ");
-		b = ler.nextDouble();
+		System.out.print("Digite um valor para B: "); // Informar um valor para variavel tipo B
+		b = ler.nextDouble(); // Armazenar valor para tipo B
 		
-		soma = a+b;
-		subtra = a-b;
-		multi = a*b;
-		divi = a/b;
+		soma = a+b; // Realizar o calculo com base nos valores armazenados de A e B
+		subtra = a-b; // Realizar o calculo com base nos valores armazenados de A e B
+		multi = a*b; // Realizar o calculo com base nos valores armazenados de A e B
+		divi = a/b; // Realizar o calculo com base nos valores armazenados de A e B
 		
-		System.out.print("O resultado da soma é: " + soma + "|");
-		System.out.print("O resultado da subtração é: " + subtra + "|");
-		System.out.print("O resultado da multiplicação é: " + multi + "|");
-		System.out.print("O resultado da divisão é: " + divi + "|");
+		System.out.print("O resultado da soma é: " + soma + "|"); // Informa a saída de dados com os calculos realizados
+		System.out.print("O resultado da subtração é: " + subtra + "|"); // Informa a saída de dados com os calculos realizados
+		System.out.print("O resultado da multiplicação é: " + multi + "|"); // Informa a saída de dados com os calculos realizados
+		System.out.print("O resultado da divisão é: " + divi + "|"); // Informa a saída de dados com os calculos realizados
 		
-		ler.close();
+		ler.close(); // Fecha o código
 	}
 
 }
+
