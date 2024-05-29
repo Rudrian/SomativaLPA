@@ -1,0 +1,27 @@
+package avaliaçãolpa;
+
+import java.util.Scanner;
+
+public class avalia5 { //Nome da Classe
+
+	public static void main(String[] args) { //Permite que o codigo seja executado de varias formas
+		Scanner ler = new Scanner(System.in); //Ler e armazenar o codigo
+		
+		String c[] = new String [6]; //Variaveis com quantidade fixa
+		
+		for(int i=0; i<6; i++) { //Estrutura de repetição
+			System.out.println("Informe os carros"); //Usuario informa os 6 carros
+			c[i] = ler.next(); //Ler e armazenar os carros
+			
+			for(int i1=0; i1<6; i1++) { //Estrutura de repetição
+				System.out.println(c[i1]); //Mostra todos os carros informados
+			}
+			
+		}
+		
+		
+		
+
+	}
+
+}
