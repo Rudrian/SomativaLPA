@@ -2,22 +2,22 @@ package avaliaçãolpa;
 
 import java.util.Scanner;
 
-public class avalia2 {
+public class avalia2 { //Nome da Classe
 
-	public static void main(String[] args) {
-		Scanner ler = new Scanner(System.in);
+	public static void main(String[] args) { //Permite que o codigo seja executado de varias formas
+		Scanner ler = new Scanner(System.in); //Ler o codigo e armazenar
         
-		double A = 0, b, h;
+		double A = 0, b, h; // Variaveis
 		
-		System.out.print("Informe um valor: ");
-		b = ler.nextDouble();
+		System.out.print("Informe um valor: "); //Usuario informa valor para variavel b
+		b = ler.nextDouble(); //Ler e amazenar o valor inserido
 		
-		System.out.print("Informe outro valor valor: ");
-		h = ler.nextDouble();
+		System.out.print("Informe outro valor valor: "); //Usuario informa valor para variavel h
+		h = ler.nextDouble(); //Ler e amarzenar valor inserido
 		
-		A = b*h/2;
+		A = b*h/2; //Calcula com base nos valores armazenados
 		
-		System.out.print("A area calculada é: " + A);
+		System.out.print("A area calculada é: " + A); //Saida de dados com o calculo realizado
 		
 	}
 
